@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5B893F1215F163200117361 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B893F0215F163200117361 /* AppDelegate.m */; };
+		A5B893F4215F163200117361 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B893F3215F163200117361 /* ViewController.m */; };
+		A5B893F7215F163200117361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B893F5215F163200117361 /* Main.storyboard */; };
+		A5B893F9215F163500117361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B893F8215F163500117361 /* Assets.xcassets */; };
+		A5B893FC215F163500117361 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B893FA215F163500117361 /* LaunchScreen.storyboard */; };
+		A5B893FF215F163500117361 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B893FE215F163500117361 /* main.m */; };
+		A5B89409215F163500117361 /* LXYRaisedTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89408215F163500117361 /* LXYRaisedTabTests.m */; };
+		A5B89414215F163500117361 /* LXYRaisedTabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89413215F163500117361 /* LXYRaisedTabUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5B89405215F163500117361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5B893E4215F163200117361 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5B893EB215F163200117361;
+			remoteInfo = LXYRaisedTab;
+		};
+		A5B89410215F163500117361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5B893E4215F163200117361 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5B893EB215F163200117361;
+			remoteInfo = LXYRaisedTab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5B893EC215F163200117361 /* LXYRaisedTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXYRaisedTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B893EF215F163200117361 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5B893F0215F163200117361 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5B893F2215F163200117361 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5B893F3215F163200117361 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5B893F6215F163200117361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5B893F8215F163500117361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5B893FB215F163500117361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5B893FD215F163500117361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B893FE215F163500117361 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5B89404215F163500117361 /* LXYRaisedTabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXYRaisedTabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B89408215F163500117361 /* LXYRaisedTabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXYRaisedTabTests.m; sourceTree = "<group>"; };
+		A5B8940A215F163500117361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B8940F215F163500117361 /* LXYRaisedTabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXYRaisedTabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B89413215F163500117361 /* LXYRaisedTabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXYRaisedTabUITests.m; sourceTree = "<group>"; };
+		A5B89415215F163500117361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5B893E9215F163200117361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B89401215F163500117361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B8940C215F163500117361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5B893E3215F163200117361 = {
+			isa = PBXGroup;
+			children = (
+				A5B893EE215F163200117361 /* LXYRaisedTab */,
+				A5B89407215F163500117361 /* LXYRaisedTabTests */,
+				A5B89412215F163500117361 /* LXYRaisedTabUITests */,
+				A5B893ED215F163200117361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5B893ED215F163200117361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5B893EC215F163200117361 /* LXYRaisedTab.app */,
+				A5B89404215F163500117361 /* LXYRaisedTabTests.xctest */,
+				A5B8940F215F163500117361 /* LXYRaisedTabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5B893EE215F163200117361 /* LXYRaisedTab */ = {
+			isa = PBXGroup;
+			children = (
+				A5B893EF215F163200117361 /* AppDelegate.h */,
+				A5B893F0215F163200117361 /* AppDelegate.m */,
+				A5B893F2215F163200117361 /* ViewController.h */,
+				A5B893F3215F163200117361 /* ViewController.m */,
+				A5B893F5215F163200117361 /* Main.storyboard */,
+				A5B893F8215F163500117361 /* Assets.xcassets */,
+				A5B893FA215F163500117361 /* LaunchScreen.storyboard */,
+				A5B893FD215F163500117361 /* Info.plist */,
+				A5B893FE215F163500117361 /* main.m */,
+			);
+			path = LXYRaisedTab;
+			sourceTree = "<group>";
+		};
+		A5B89407215F163500117361 /* LXYRaisedTabTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5B89408215F163500117361 /* LXYRaisedTabTests.m */,
+				A5B8940A215F163500117361 /* Info.plist */,
+			);
+			path = LXYRaisedTabTests;
+			sourceTree = "<group>";
+		};
+		A5B89412215F163500117361 /* LXYRaisedTabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5B89413215F163500117361 /* LXYRaisedTabUITests.m */,
+				A5B89415215F163500117361 /* Info.plist */,
+			);
+			path = LXYRaisedTabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5B893EB215F163200117361 /* LXYRaisedTab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B89418215F163500117361 /* Build configuration list for PBXNativeTarget "LXYRaisedTab" */;
+			buildPhases = (
+				A5B893E8215F163200117361 /* Sources */,
+				A5B893E9215F163200117361 /* Frameworks */,
+				A5B893EA215F163200117361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXYRaisedTab;
+			productName = LXYRaisedTab;
+			productReference = A5B893EC215F163200117361 /* LXYRaisedTab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5B89403215F163500117361 /* LXYRaisedTabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B8941B215F163500117361 /* Build configuration list for PBXNativeTarget "LXYRaisedTabTests" */;
+			buildPhases = (
+				A5B89400215F163500117361 /* Sources */,
+				A5B89401215F163500117361 /* Frameworks */,
+				A5B89402215F163500117361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5B89406215F163500117361 /* PBXTargetDependency */,
+			);
+			name = LXYRaisedTabTests;
+			productName = LXYRaisedTabTests;
+			productReference = A5B89404215F163500117361 /* LXYRaisedTabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5B8940E215F163500117361 /* LXYRaisedTabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B8941E215F163500117361 /* Build configuration list for PBXNativeTarget "LXYRaisedTabUITests" */;
+			buildPhases = (
+				A5B8940B215F163500117361 /* Sources */,
+				A5B8940C215F163500117361 /* Frameworks */,
+				A5B8940D215F163500117361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5B89411215F163500117361 /* PBXTargetDependency */,
+			);
+			name = LXYRaisedTabUITests;
+			productName = LXYRaisedTabUITests;
+			productReference = A5B8940F215F163500117361 /* LXYRaisedTabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5B893E4215F163200117361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = liuxy;
+				TargetAttributes = {
+					A5B893EB215F163200117361 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A5B89403215F163500117361 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A5B893EB215F163200117361;
+					};
+					A5B8940E215F163500117361 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A5B893EB215F163200117361;
+					};
+				};
+			};
+			buildConfigurationList = A5B893E7215F163200117361 /* Build configuration list for PBXProject "LXYRaisedTab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5B893E3215F163200117361;
+			productRefGroup = A5B893ED215F163200117361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5B893EB215F163200117361 /* LXYRaisedTab */,
+				A5B89403215F163500117361 /* LXYRaisedTabTests */,
+				A5B8940E215F163500117361 /* LXYRaisedTabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5B893EA215F163200117361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B893FC215F163500117361 /* LaunchScreen.storyboard in Resources */,
+				A5B893F9215F163500117361 /* Assets.xcassets in Resources */,
+				A5B893F7215F163200117361 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B89402215F163500117361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B8940D215F163500117361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5B893E8215F163200117361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B893F4215F163200117361 /* ViewController.m in Sources */,
+				A5B893FF215F163500117361 /* main.m in Sources */,
+				A5B893F1215F163200117361 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B89400215F163500117361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B89409215F163500117361 /* LXYRaisedTabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B8940B215F163500117361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B89414215F163500117361 /* LXYRaisedTabUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5B89406215F163500117361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5B893EB215F163200117361 /* LXYRaisedTab */;
+			targetProxy = A5B89405215F163500117361 /* PBXContainerItemProxy */;
+		};
+		A5B89411215F163500117361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5B893EB215F163200117361 /* LXYRaisedTab */;
+			targetProxy = A5B89410215F163500117361 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5B893F5215F163200117361 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5B893F6215F163200117361 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5B893FA215F163500117361 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5B893FB215F163500117361 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5B89416215F163500117361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5B89417215F163500117361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5B89419215F163500117361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXYRaisedTab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.com.LXYRaisedTab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5B8941A215F163500117361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXYRaisedTab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.com.LXYRaisedTab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5B8941C215F163500117361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXYRaisedTabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.com.LXYRaisedTabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXYRaisedTab.app/LXYRaisedTab";
+			};
+			name = Debug;
+		};
+		A5B8941D215F163500117361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXYRaisedTabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.com.LXYRaisedTabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXYRaisedTab.app/LXYRaisedTab";
+			};
+			name = Release;
+		};
+		A5B8941F215F163500117361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXYRaisedTabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.com.LXYRaisedTabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXYRaisedTab;
+			};
+			name = Debug;
+		};
+		A5B89420215F163500117361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXYRaisedTabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.com.LXYRaisedTabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXYRaisedTab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5B893E7215F163200117361 /* Build configuration list for PBXProject "LXYRaisedTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B89416215F163500117361 /* Debug */,
+				A5B89417215F163500117361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B89418215F163500117361 /* Build configuration list for PBXNativeTarget "LXYRaisedTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B89419215F163500117361 /* Debug */,
+				A5B8941A215F163500117361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B8941B215F163500117361 /* Build configuration list for PBXNativeTarget "LXYRaisedTabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B8941C215F163500117361 /* Debug */,
+				A5B8941D215F163500117361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B8941E215F163500117361 /* Build configuration list for PBXNativeTarget "LXYRaisedTabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B8941F215F163500117361 /* Debug */,
+				A5B89420215F163500117361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5B893E4215F163200117361 /* Project object */;
+}
