@@ -15,6 +15,14 @@
 		A5B893FF215F163500117361 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B893FE215F163500117361 /* main.m */; };
 		A5B89409215F163500117361 /* LXYRaisedTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89408215F163500117361 /* LXYRaisedTabTests.m */; };
 		A5B89414215F163500117361 /* LXYRaisedTabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89413215F163500117361 /* LXYRaisedTabUITests.m */; };
+		A5B89426215F189700117361 /* UIView+HLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89425215F189700117361 /* UIView+HLExtension.m */; };
+		A5B8942C215F1C3A00117361 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B8942B215F1C3A00117361 /* FirstViewController.m */; };
+		A5B8942F215F1C4300117361 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B8942E215F1C4300117361 /* AddViewController.m */; };
+		A5B89432215F1C5300117361 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89431215F1C5300117361 /* SecondViewController.m */; };
+		A5B89435215F1CDA00117361 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89434215F1CDA00117361 /* FourViewController.m */; };
+		A5B8943B215F231200117361 /* LXYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89437215F231200117361 /* LXYTabBar.m */; };
+		A5B8943C215F231200117361 /* LXYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B89438215F231200117361 /* LXYTabBarController.m */; };
+		A5B8943E215F24DC00117361 /* hello.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B8943D215F24DC00117361 /* hello.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,21 @@
 		A5B8940F215F163500117361 /* LXYRaisedTabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXYRaisedTabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B89413215F163500117361 /* LXYRaisedTabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXYRaisedTabUITests.m; sourceTree = "<group>"; };
 		A5B89415215F163500117361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B89424215F189700117361 /* UIView+HLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLExtension.h"; sourceTree = "<group>"; };
+		A5B89425215F189700117361 /* UIView+HLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLExtension.m"; sourceTree = "<group>"; };
+		A5B8942A215F1C3A00117361 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A5B8942B215F1C3A00117361 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A5B8942D215F1C4300117361 /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		A5B8942E215F1C4300117361 /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		A5B89430215F1C5300117361 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A5B89431215F1C5300117361 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A5B89433215F1CDA00117361 /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		A5B89434215F1CDA00117361 /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		A5B89437215F231200117361 /* LXYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXYTabBar.m; sourceTree = "<group>"; };
+		A5B89438215F231200117361 /* LXYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXYTabBarController.m; sourceTree = "<group>"; };
+		A5B89439215F231200117361 /* LXYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXYTabBar.h; sourceTree = "<group>"; };
+		A5B8943A215F231200117361 /* LXYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXYTabBarController.h; sourceTree = "<group>"; };
+		A5B8943D215F24DC00117361 /* hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hello.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +124,9 @@
 		A5B893EE215F163200117361 /* LXYRaisedTab */ = {
 			isa = PBXGroup;
 			children = (
+				A5B89436215F231200117361 /* XYTabbarController */,
+				A5B89424215F189700117361 /* UIView+HLExtension.h */,
+				A5B89425215F189700117361 /* UIView+HLExtension.m */,
 				A5B893EF215F163200117361 /* AppDelegate.h */,
 				A5B893F0215F163200117361 /* AppDelegate.m */,
 				A5B893F2215F163200117361 /* ViewController.h */,
@@ -110,6 +136,14 @@
 				A5B893FA215F163500117361 /* LaunchScreen.storyboard */,
 				A5B893FD215F163500117361 /* Info.plist */,
 				A5B893FE215F163500117361 /* main.m */,
+				A5B8942A215F1C3A00117361 /* FirstViewController.h */,
+				A5B8942B215F1C3A00117361 /* FirstViewController.m */,
+				A5B8942D215F1C4300117361 /* AddViewController.h */,
+				A5B8942E215F1C4300117361 /* AddViewController.m */,
+				A5B89430215F1C5300117361 /* SecondViewController.h */,
+				A5B89431215F1C5300117361 /* SecondViewController.m */,
+				A5B89433215F1CDA00117361 /* FourViewController.h */,
+				A5B89434215F1CDA00117361 /* FourViewController.m */,
 			);
 			path = LXYRaisedTab;
 			sourceTree = "<group>";
@@ -130,6 +164,18 @@
 				A5B89415215F163500117361 /* Info.plist */,
 			);
 			path = LXYRaisedTabUITests;
+			sourceTree = "<group>";
+		};
+		A5B89436215F231200117361 /* XYTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				A5B8943D215F24DC00117361 /* hello.png */,
+				A5B89439215F231200117361 /* LXYTabBar.h */,
+				A5B89437215F231200117361 /* LXYTabBar.m */,
+				A5B8943A215F231200117361 /* LXYTabBarController.h */,
+				A5B89438215F231200117361 /* LXYTabBarController.m */,
+			);
+			path = XYTabbarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B8943E215F24DC00117361 /* hello.png in Resources */,
 				A5B893FC215F163500117361 /* LaunchScreen.storyboard in Resources */,
 				A5B893F9215F163500117361 /* Assets.xcassets in Resources */,
 				A5B893F7215F163200117361 /* Main.storyboard in Resources */,
@@ -262,9 +309,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B89432215F1C5300117361 /* SecondViewController.m in Sources */,
+				A5B8943C215F231200117361 /* LXYTabBarController.m in Sources */,
 				A5B893F4215F163200117361 /* ViewController.m in Sources */,
+				A5B89435215F1CDA00117361 /* FourViewController.m in Sources */,
+				A5B8943B215F231200117361 /* LXYTabBar.m in Sources */,
+				A5B8942C215F1C3A00117361 /* FirstViewController.m in Sources */,
 				A5B893FF215F163500117361 /* main.m in Sources */,
 				A5B893F1215F163200117361 /* AppDelegate.m in Sources */,
+				A5B89426215F189700117361 /* UIView+HLExtension.m in Sources */,
+				A5B8942F215F1C4300117361 /* AddViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
